@@ -29,7 +29,7 @@ jobs:
 
       - run: yarn install --frozen-lockfile
       - run: yarn build
-      - name: copy file
+      - name: Copy CNAME
         uses: canastro/copy-file-action@master
         with:
           source: "CNAME"
